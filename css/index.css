@@ -1,0 +1,600 @@
+body, html {
+  overflow-x: hidden;
+}
+
+.wrapper1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+#header {
+  background-color: #1d1d1d;
+  text-align: center;
+  -webkit-animation: loading 3s forwards ease;
+          animation: loading 3s forwards ease;
+}
+
+#header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#header div h6 {
+  color: #dfdddd;
+  font-size: .7em;
+  margin-top: -.4em;
+}
+
+#header div img {
+  width: 17%;
+}
+
+#header div div {
+  display: block;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#header .main-broucher {
+  width: 27%;
+  margin-top: 2rem;
+}
+
+#header .aozora {
+  color: #eecd6a;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+#header h1 {
+  color: #dfdddd;
+  font-size: .8rem;
+}
+
+#header p {
+  color: #dfdddd;
+  font-size: .7rem;
+}
+
+#header h2 {
+  color: #dfdddd;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+#header h2 span {
+  color: #eecd6a;
+}
+
+#header h3 {
+  color: #dfdddd;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+#header h3 span {
+  color: #eecd6a;
+}
+
+#header h4 {
+  color: #dfdddd;
+  margin-top: 1.1em;
+}
+
+#header h5 {
+  color: #eecd6a;
+  font-weight: normal;
+  font-size: .8rem;
+}
+
+#header .timer {
+  margin: 0 2em;
+}
+
+#header .timer .col-lg-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#header .timer .col-lg-12 div p {
+  color: #eecd6a;
+  font-size: 2.7em;
+  margin-bottom: -.3em;
+}
+
+#header .timer .col-lg-12 div span {
+  color: #dfdddd;
+}
+
+#header button {
+  margin-bottom: 7%;
+  margin-top: 3%;
+  color: #eecd6a;
+  background-color: transparent;
+  padding: 9px 20px;
+  font-size: 1.1rem;
+  border-color: #eecd6a;
+  border-radius: 0.450rem;
+}
+
+#header button:hover {
+  background-color: #e2ba43;
+  border-color: transparent;
+  color: #1d1d1d;
+}
+
+#posters {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+#posters h3 {
+  font-size: 2rem;
+  margin: 1em 0;
+}
+
+#posters img {
+  width: 40%;
+  -webkit-box-shadow: 1px 3px 5px black;
+          box-shadow: 1px 3px 5px black;
+}
+
+#posters .sr-only {
+  color: #1d1d1d;
+}
+
+#about {
+  background-color: #1d1d1d;
+}
+
+#about .row {
+  margin: 0 1em;
+  margin-right: 3em;
+}
+
+#about .row h3 {
+  color: #eecd6a;
+  margin-top: 1em;
+}
+
+#about .row p {
+  color: #dfdddd;
+  margin-top: 1em;
+  line-height: 1.8;
+  letter-spacing: 1px;
+}
+
+#technical-events {
+  text-align: center;
+}
+
+#technical-events h2 {
+  margin: 1.3em 0;
+}
+
+#technical-events .card {
+  margin: 1em 4.6em;
+  background-color: #1d1d1d;
+  color: #eecd6a;
+}
+
+#technical-events h3 {
+  padding-top: .6em;
+  font-size: 1.7em;
+}
+
+#technical-events button {
+  margin-bottom: 7%;
+  margin-top: 3%;
+  color: #eecd6a;
+  background-color: transparent;
+  padding: 9px 20px;
+  font-size: .9rem;
+  border-color: #eecd6a;
+  border-radius: 0.450rem;
+}
+
+#technical-events button:hover {
+  background-color: #e2ba43;
+  border-color: transparent;
+  color: #1d1d1d;
+}
+
+#non-technical-events {
+  text-align: center;
+}
+
+#non-technical-events h2 {
+  margin: 1.3em 0;
+}
+
+#non-technical-events .card {
+  margin: 1em 4.6em;
+  background-color: #1d1d1d;
+  color: #eecd6a;
+}
+
+#non-technical-events h3 {
+  padding-top: .6em;
+  font-size: 1.7em;
+}
+
+#non-technical-events button {
+  margin-bottom: 7%;
+  margin-top: 3%;
+  color: #eecd6a;
+  background-color: transparent;
+  padding: 9px 20px;
+  font-size: .9rem;
+  border-color: #eecd6a;
+  border-radius: 0.450rem;
+}
+
+#non-technical-events button:hover {
+  background-color: #e2ba43;
+  border-color: transparent;
+  color: #1d1d1d;
+}
+
+#patrons {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+#patrons h3 {
+  font-size: 1.4rem;
+  margin: 1em 0;
+}
+
+#patrons img {
+  width: 30%;
+  border-radius: 50%;
+  -webkit-box-shadow: 1px 3px 5px black;
+          box-shadow: 1px 3px 5px black;
+  margin-bottom: 1em;
+}
+
+#patrons .staff-role {
+  margin-top: -9px;
+}
+
+#patrons .staff-separate-row {
+  width: 30%;
+}
+
+#staff-co-ordinators {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+#staff-co-ordinators h3 {
+  font-size: 1.5rem;
+  margin: 1em 0;
+}
+
+#staff-co-ordinators img {
+  width: 30%;
+  border-radius: 50%;
+  -webkit-box-shadow: 1px 3px 5px black;
+          box-shadow: 1px 3px 5px black;
+  margin-bottom: 1em;
+}
+
+#staff-co-ordinators .staff-role {
+  margin-top: -9px;
+}
+
+#staff-co-ordinators .staff-separate-row {
+  width: 30%;
+}
+
+#student-co-ordinators {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+#student-co-ordinators h3 {
+  font-size: 1.5rem;
+  margin: 1em 0;
+}
+
+#student-co-ordinators img {
+  width: 30%;
+  border-radius: 50%;
+  -webkit-box-shadow: 1px 3px 5px grey;
+          box-shadow: 1px 3px 5px grey;
+  margin-bottom: 1em;
+}
+
+#footer {
+  background-color: #1d1d1d;
+  text-align: center;
+  color: #eecd6a;
+}
+
+#footer .details {
+  padding-bottom: 3em;
+}
+
+#footer h2 {
+  padding-top: 2em;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+}
+
+#footer i {
+  color: #eecd6a;
+  font-size: 220%;
+  margin: .5em;
+}
+
+#footer i:hover {
+  color: #e2ba43;
+}
+
+#footer h3 {
+  font-size: 1.7rem;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  letter-spacing: 1px;
+}
+
+#footer p {
+  text-align: left;
+  margin-left: 1em;
+  color: #fff;
+}
+
+@media only screen and (min-width: 920px) {
+  #posters img {
+    width: 20%;
+  }
+  #posters .sr-only {
+    color: #1d1d1d;
+  }
+  #about .row {
+    margin: 0 1em;
+  }
+  #about .row h3 {
+    margin-top: 1.5em;
+    padding-left: 1em;
+  }
+  #about .row p {
+    margin-top: 1em;
+    line-height: 2;
+    letter-spacing: 1px;
+    padding-right: 4.5rem;
+    padding-left: 2em;
+  }
+  #technical-events {
+    text-align: center;
+  }
+  #technical-events h2 {
+    margin: 1.3em 0;
+  }
+  #technical-events .card {
+    margin: 1em 2.2em;
+    background-color: #1d1d1d;
+    color: #eecd6a;
+  }
+  #technical-events h3 {
+    padding-top: .6em;
+    font-size: 2em;
+  }
+  #non-technical-events {
+    text-align: center;
+  }
+  #non-technical-events h2 {
+    margin: 1.3em 0;
+  }
+  #non-technical-events .card {
+    margin: 1em 2.2em;
+    background-color: #1d1d1d;
+    color: #eecd6a;
+  }
+  #non-technical-events h3 {
+    padding-top: .6em;
+    font-size: 2em;
+  }
+  #patrons img {
+    width: 20%;
+  }
+  #staff-co-ordinators .staff-separate-row {
+    width: 20%;
+  }
+  #student-co-ordinators img {
+    width: 40%;
+  }
+  #footer .details {
+    margin-left: 37%;
+  }
+  #header {
+    text-align: center;
+  }
+  #header .top {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  #header .top h1 {
+    font-size: 1.6rem;
+    margin-top: -.9em;
+  }
+  #header .top p {
+    font-size: 1.3rem;
+  }
+  #header div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #header div h6 {
+    font-size: .9rem;
+    margin-top: -.4em;
+  }
+  #header div img {
+    width: 13%;
+  }
+  #header div div {
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+  }
+  #header .main-broucher {
+    width: 12%;
+    margin-top: -.5em;
+  }
+  #header .aozora {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+  #header h1 {
+    font-size: 1rem;
+  }
+  #header p {
+    font-size: .9rem;
+  }
+  #header h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 1rem;
+  }
+  #header h3 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 1.7rem;
+  }
+  #header h4 {
+    margin-top: 1.1em;
+    margin-bottom: -.5em;
+  }
+  #header h5 {
+    font-weight: normal;
+    font-size: .8rem;
+  }
+  #header .timer {
+    margin: 0 33%;
+  }
+  #header .timer .col-lg-12 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #header .timer .col-lg-12 div p {
+    font-size: 2.7em;
+    margin-bottom: -.3em;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 990px) {
+  #student-co-ordinators img {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 630px) and (max-width: 910px) {
+  #header {
+    text-align: center;
+  }
+  #header .top h1 {
+    font-size: 1.6rem;
+    margin-top: -.9em;
+  }
+  #header .top p {
+    font-size: 1.3rem;
+  }
+  #header div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #header div h6 {
+    font-size: .9rem;
+    margin-top: -.4em;
+  }
+  #header div img {
+    width: 16%;
+  }
+  #header div div {
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+  }
+  #header .main-broucher {
+    width: 12%;
+  }
+  #header .aozora {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+  #header h1 {
+    font-size: 1rem;
+  }
+  #header p {
+    font-size: .9rem;
+  }
+  #header h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 1rem;
+  }
+  #header h3 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 1.7rem;
+  }
+  #header h4 {
+    margin-top: 1.1em;
+    margin-bottom: -1em;
+  }
+  #header h5 {
+    font-weight: normal;
+    font-size: .8rem;
+  }
+  #header .timer {
+    margin: 0 33%;
+  }
+  #header .timer .col-lg-12 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #header .timer .col-lg-12 div p {
+    font-size: 2.7em;
+    margin-bottom: -.3em;
+  }
+}
+
+@-webkit-keyframes loading {
+  from {
+    -webkit-clip-path: polygon(100% 0, 100% 0, 52% 25%, 0 0, 0 0);
+            clip-path: polygon(100% 0, 100% 0, 52% 25%, 0 0, 0 0);
+  }
+  to {
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 53% 100%, 0 100%, 0 0);
+            clip-path: polygon(100% 0, 100% 100%, 53% 100%, 0 100%, 0 0);
+  }
+}
+
+@keyframes loading {
+  from {
+    -webkit-clip-path: polygon(100% 0, 100% 0, 52% 25%, 0 0, 0 0);
+            clip-path: polygon(100% 0, 100% 0, 52% 25%, 0 0, 0 0);
+  }
+  to {
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 53% 100%, 0 100%, 0 0);
+            clip-path: polygon(100% 0, 100% 100%, 53% 100%, 0 100%, 0 0);
+  }
+}
+/*# sourceMappingURL=index.css.map */

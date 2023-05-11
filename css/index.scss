@@ -1,0 +1,565 @@
+body, html {
+    overflow-x: hidden;
+}
+
+.wrapper1{
+    font-family: 'Poppins', sans-serif;
+}
+
+#header{
+    background-color: rgb(29, 29, 29);
+    text-align: center;
+    animation: loading 3s forwards ease;
+    div{
+        display: flex;
+        justify-content:space-between;
+        h6{
+            color: #dfdddd;
+            font-size: .7em;
+            margin-top: -.4em;
+        }
+        img{
+            width: 17%;
+        }
+        div{
+            display: block;
+            text-align: center;
+            margin-top: 5%;
+        }
+    }
+    .main-broucher{
+        width: 27%;
+        margin-top: 2rem;
+    }
+    .aozora{
+        color: #eecd6a;
+        font-size: 1.6rem;
+        letter-spacing: 1px;
+    }
+    h1{
+        color: #dfdddd;
+        font-size: .8rem;
+    }
+    p{
+        color: #dfdddd;
+        font-size: .7rem;
+    }
+    h2{
+        color: #dfdddd;
+        font-size: 1.3rem;
+        font-weight: 400;
+        margin-top: 1rem;
+        span{
+            color: #eecd6a;
+        }
+    }
+    h3{
+        color: #dfdddd;
+        font-size: 1.1rem;
+        font-weight: 400;
+        margin-top: 1rem;
+        span{
+            color: #eecd6a;
+        }
+    }
+    h4{
+        color: #dfdddd;
+        margin-top: 1.1em;
+        // margin-bottom: 1em;
+    }
+    h5{
+        color: #eecd6a;
+        font-weight: normal;
+        font-size: .8rem;
+    }
+    .timer{
+        margin: 0 2em;
+        .col-lg-12{
+            display: flex;
+            
+            div{
+                p{
+                    color: #eecd6a;
+                    font-size: 2.7em;
+                    margin-bottom: -.3em;
+                }
+                span{
+                    color: #dfdddd;
+                }
+            }
+        }
+    }
+    button{
+        margin-bottom: 7%;
+        margin-top: 3%;
+        color: #eecd6a;
+        background-color:transparent;
+        padding:9px 20px;
+        font-size: 1.1rem;
+        border-color: #eecd6a;
+        border-radius: 0.450rem;
+    }
+    button:hover{
+        background-color: #e2ba43;
+        border-color: transparent;
+        color: rgb(29, 29, 29);
+    }
+}
+
+
+#posters{
+    text-align: center;
+    margin-bottom: 2em;
+    h3{
+        font-size: 2rem;
+        margin: 1em 0;
+    }
+    img{
+        width: 40%;
+        box-shadow: 1px 3px 5px black;
+    }
+    .sr-only{
+        color: rgb(29, 29, 29);
+    }
+}
+
+
+#about{
+    background-color: rgb(29, 29, 29);
+    .row{
+        margin: 0 1em;
+        margin-right: 3em;
+        h3{
+            color: #eecd6a;
+            margin-top: 1em;
+        }
+        p{
+            color: #dfdddd;
+            margin-top: 1em;
+            line-height: 1.8;
+            letter-spacing: 1px;
+        }
+    }
+}
+
+#technical-events{
+    text-align: center;
+    h2{
+        margin: 1.3em 0;
+    }
+    .card{
+        margin: 1em 4.6em;
+        background-color: rgb(29, 29, 29);
+        color:#eecd6a;
+    }
+    h3{
+        padding-top: .6em;
+        font-size: 1.7em;
+    }
+    button{
+        margin-bottom: 7%;
+        margin-top: 3%;
+        color: #eecd6a;
+        background-color:transparent;
+        padding:9px 20px;
+        font-size: .9rem;
+        border-color: #eecd6a;
+        border-radius: 0.450rem;
+    }
+    button:hover{
+        background-color: #e2ba43;
+        border-color: transparent;
+        color: rgb(29, 29, 29);
+    }
+}
+
+
+#non-technical-events{
+    text-align: center;
+    h2{
+        margin: 1.3em 0;
+    }
+    .card{
+        margin: 1em 4.6em;
+        background-color: rgb(29, 29, 29);
+        color:#eecd6a;
+    }
+    h3{
+        padding-top: .6em;
+        font-size: 1.7em;
+    }
+    
+    button{
+        margin-bottom: 7%;
+        margin-top: 3%;
+        color: #eecd6a;
+        background-color:transparent;
+        padding:9px 20px;
+        font-size: .9rem;
+        border-color: #eecd6a;
+        border-radius: 0.450rem;
+    }
+    button:hover{
+        background-color: #e2ba43;
+        border-color: transparent;
+        color: rgb(29, 29, 29);
+    }
+}
+
+#patrons{
+    text-align: center;
+    margin-bottom: 2%;
+    h3{
+        font-size: 1.4rem;
+        // font-weight: bold;
+        margin: 1em 0;
+    }
+    img{
+        width: 30%;
+        border-radius: 50%;
+        box-shadow: 1px 3px 5px rgb(0, 0, 0);
+        margin-bottom: 1em;
+    }
+    .staff-role{
+        margin-top: -9px;
+    }
+    .staff-separate-row{
+        width: 30%;
+    }
+}
+
+#staff-co-ordinators{
+    text-align: center;
+    margin-bottom: 2%;
+    h3{
+        font-size: 1.5rem;
+        // font-weight: bold;
+        margin: 1em 0;
+    }
+    img{
+        width: 30%;
+        border-radius: 50%;
+        box-shadow: 1px 3px 5px rgb(0, 0, 0);
+        margin-bottom: 1em;
+    }
+    .staff-role{
+        margin-top: -9px;
+    }
+    .staff-separate-row{
+        width: 30%;
+    }
+}
+
+
+#student-co-ordinators{
+    text-align: center;
+    margin-bottom: 2%;
+    h3{
+        font-size: 1.5rem;
+        // font-weight: bold;
+        margin: 1em 0;
+    }
+    img{
+        width: 30%;
+        border-radius: 50%;
+        box-shadow: 1px 3px 5px grey;
+        margin-bottom: 1em;
+    }
+    
+}
+
+
+#footer{
+    background-color: rgb(29, 29, 29);
+    text-align: center;
+    color: #eecd6a;
+    .details{
+        padding-bottom: 3em;
+    }
+    h2{
+        padding-top: 2em;
+        font-size: 1.7rem;
+        letter-spacing: 1px;
+    }
+    i{
+        color: #eecd6a;
+        font-size: 220%;
+        margin: .5em;
+    }
+    i:hover{
+        color: #e2ba43;
+    }
+    h3{
+        font-size: 1.7rem;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        letter-spacing: 1px;
+    }
+    p{
+        text-align: left;
+        margin-left: 1em;
+        color: #fff;
+    }
+}
+
+@media only screen and (min-width: 920px){
+    #posters{
+        img{
+            width: 20%;
+        }
+        .sr-only{
+            color: rgb(29, 29, 29);
+        }
+    }
+
+    #about{
+        .row{
+            margin: 0 1em;
+            // .col-lg-6{
+                
+            // }
+            h3{
+                margin-top: 1.5em;
+                padding-left: 1em;
+            }
+            p{
+                margin-top: 1em;
+                line-height: 2;
+                letter-spacing: 1px;
+                padding-right: 4.5rem;
+                padding-left: 2em;
+            }
+        }
+    }
+
+    #technical-events{
+        text-align: center;
+        h2{
+            margin: 1.3em 0;
+        }
+        .card{
+            margin: 1em 2.2em;
+            background-color: rgb(29, 29, 29);
+            color:#eecd6a;
+        }
+        h3{
+            padding-top: .6em;
+            font-size: 2em;
+        }
+    }
+    
+    
+    #non-technical-events{
+        text-align: center;
+        h2{
+            margin: 1.3em 0;
+        }
+        .card{
+            margin: 1em 2.2em;
+            background-color: rgb(29, 29, 29);
+            color:#eecd6a;
+        }
+        h3{
+            padding-top: .6em;
+            font-size: 2em;
+        }
+    }
+
+    #patrons{
+        img{
+            width: 20%;
+        }
+    }
+    #staff-co-ordinators{
+        .staff-separate-row{
+            width: 20%;
+        }
+    }
+    #student-co-ordinators{
+        img{
+            width: 40%;
+        }
+    }
+
+    #footer{
+        .details{
+            margin-left: 37%;
+        }
+    }
+
+    #header{
+        text-align: center;
+        .top{
+            margin-left: 15%;
+            margin-right: 15%;
+            h1{
+                font-size: 1.6rem;
+                margin-top: -.9em;
+            }
+            p{
+                font-size: 1.3rem;
+            }
+        }
+        div{
+            display: flex;
+            justify-content:space-between;
+            h6{
+                font-size: .9rem;
+                margin-top: -.4em;
+            }
+            img{
+                width: 13%;
+                
+            }
+            div{
+                display: block;
+                text-align: center;
+                margin-top: 5%;
+            }
+        }
+        .main-broucher{
+            width: 12%;
+            margin-top: -.5em;
+        }
+        .aozora{
+            font-size: 1.8rem;
+            letter-spacing: 1px;
+        }
+        h1{
+            font-size: 1rem;
+        }
+        p{
+            font-size: .9rem;
+        }
+        h2{
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-top: 1rem;
+        }
+        h3{
+            font-size: 1.6rem;
+            font-weight: 400;
+            margin-top: 1.7rem;
+        }
+        h4{
+            margin-top: 1.1em;
+            margin-bottom: -.5em;
+        }
+        h5{
+            font-weight: normal;
+            font-size: .8rem;
+        }
+        .timer{
+            margin: 0 33%;
+            .col-lg-12{
+                display: flex;
+                
+                div{
+                    p{
+                        font-size: 2.7em;
+                        margin-bottom: -.3em;
+                    }
+                }
+            }
+        }
+    }
+    
+       
+}
+
+@media only screen and (min-width: 900px) and (max-width: 990px){
+    #student-co-ordinators{
+        img{
+            width: 30%;
+        }
+    }
+}
+
+@media only screen and (min-width: 630px) and (max-width: 910px){
+    #header{
+        text-align: center;
+        .top{
+            h1{
+                font-size: 1.6rem;
+                margin-top: -.9em;
+            }
+            p{
+                font-size: 1.3rem;
+            }
+        }
+        div{
+            display: flex;
+            justify-content:space-between;
+            h6{
+                font-size: .9rem;
+                margin-top: -.4em;
+            }
+            img{
+                width: 16%;
+                
+            }
+            div{
+                display: block;
+                text-align: center;
+                margin-top: 5%;
+            }
+        }
+        .main-broucher{
+            width: 12%;
+        }
+        .aozora{
+            font-size: 1.8rem;
+            letter-spacing: 1px;
+        }
+        h1{
+            font-size: 1rem;
+        }
+        p{
+            font-size: .9rem;
+        }
+        h2{
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-top: 1rem;
+        }
+        h3{
+            font-size: 1.6rem;
+            font-weight: 400;
+            margin-top: 1.7rem;
+        }
+        h4{
+            margin-top: 1.1em;
+            margin-bottom: -1em;
+        }
+        h5{
+            font-weight: normal;
+            font-size: .8rem;
+        }
+        .timer{
+            margin: 0 33%;
+            .col-lg-12{
+                display: flex;
+                
+                div{
+                    p{
+                        font-size: 2.7em;
+                        margin-bottom: -.3em;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+
+}
+
+
+@keyframes loading{
+    from{
+        clip-path: polygon(100% 0, 100% 0, 52% 25%, 0 0, 0 0);
+    }
+    to{
+        clip-path: polygon(100% 0, 100% 100%, 53% 100%, 0 100%, 0 0);
+    }
+}

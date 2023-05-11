@@ -1,0 +1,121 @@
+body, html {
+    overflow-x: hidden;
+}
+
+.wrapper2{
+    background-color: rgb(29, 29, 29);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.rules h1, .rules h2 {
+    color: #e2ba43;
+}
+
+a button{
+    font-size: 1.1rem;
+    color: #e2ba43;
+    border-color: #e2ba43;
+    background-color: transparent;
+    padding: .4em .8em;
+    border-radius: .5rem;
+}
+a button:hover{
+    background-color: #e2ba43;
+    border-color: transparent;
+    color: rgb(29, 29, 29);
+}
+
+.contact button{
+    margin: 0 1em 1.5em;
+}
+
+.backToHome button{
+    margin: 1.5rem 0;
+}
+
+h1{
+    font-size: 2rem;
+    padding: 1em 0;
+}
+
+.contact h2{
+    text-align: center;
+    padding: 1em 0;
+}
+h2{
+    text-align: left;
+    margin-left: .5em;
+    padding-top: 1em;
+    padding-bottom: .7em;
+}
+
+li{
+    list-style:disc;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    margin-bottom: .4em;
+}
+ul{
+    margin-right: .8em;
+}
+
+p{
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+img{
+    width: 30%;
+    box-shadow: 1px 3px 5px black;
+    border-radius: 50%;
+}
+
+.co-ordinators{
+    text-align: center;
+}
+
+.co-head{
+    text-align: center;
+    padding: 1em 0;
+    font-size: 1.6rem;
+}
+
+.co-ordinators h3{
+    font-size: 1.5rem;
+    padding-top: .8rem;
+}
+
+.co-ordinators p{
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 1100px){
+    .wrapper2{
+        padding: 1em 18em;
+    }
+    h1{
+        padding: .5em 0;
+    }
+    p{
+        line-height: 2;
+    }
+
+    img{
+        width: 24%;
+    }
+    h2{
+        text-align: center;
+        padding: 1rem 0;
+        font-size: 2.5rem;
+    }
+    ul{
+        margin-left: 1rem;
+    }
+}

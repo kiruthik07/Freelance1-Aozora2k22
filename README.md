@@ -1,5 +1,5 @@
 # Freelance1-Aozora2k22
-<h1>JIT MBA Symposium Website</h1>
+<h1>JIT MBA Symposium Website 2022</h1>
 This is a static website I created for the Jitmba Symposium event using HTML, CSS, and JavaScript. It is my first freelance work and is hosted on Netlify.
 
 <h2>Website URL</h2>
